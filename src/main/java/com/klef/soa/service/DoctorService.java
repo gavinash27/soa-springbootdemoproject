@@ -12,5 +12,6 @@ public interface DoctorService {
 	Doctor displayDoctorById(Long id);
 	String deleteDoctorById(Long id);
 	List<Doctor> displayDoctorsByGender(String gender);
+	Long doctorCount();
 	
 }
